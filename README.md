@@ -1,5 +1,9 @@
 # Sarthak Tiwaskar
+<<<<<<< HEAD
 DevOps Engineer
+=======
+**DevOps Engineer**
+>>>>>>> 4e920e3cfe05c0544dda98491cfc52e39499d2ae
 
 ---
 
