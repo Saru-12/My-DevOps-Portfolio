@@ -23,9 +23,10 @@
         }
         header img {
             border-radius: 50%;
-            width: 120px; /* Adjust as per your image size */
+            width: 120px; /* Adjust this to match your image size */
             height: 120px;
             margin-right: 20px; /* Space between image and text */
+            object-fit: cover;
         }
         h1, h2 {
             margin: 0;
@@ -58,14 +59,17 @@
             font-size: 18px;
             margin-top: 10px;
         }
-        .project-name {
+        .contact-info span {
+            color: white;
             font-weight: bold;
+            display: block;
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="your-image-path.jpg" alt="Sarthak Tiwaskar's Photo">
+        <img src="your-image-path.jpg" alt="Sarthak Tiwaskar's Photo"> <!-- Replace with your image -->
         <div>
             <h1>Sarthak Tiwaskar</h1>
             <p>DevOps Engineer | 2 Years of Experience</p>
@@ -95,13 +99,13 @@
         <h2>Projects</h2>
         <ul>
             <li>
-                <span class="project-name">AWS CDK Infrastructure:</span> <a href="https://github.com/Saru-12/app-mastery">Project Link</a> - Designed and implemented infrastructure using AWS CDK for deploying applications, enhancing scalability and maintainability.
+                <span class="project-name">AWS CDK Infrastructure:</span> <a href="https://github.com/Saru-12/app-mastery" target="_blank">Project Link</a> - Designed and implemented infrastructure using AWS CDK for deploying applications, enhancing scalability and maintainability.
             </li>
             <li>
-                <span class="project-name">NestJS CI/CD Pipeline:</span> <a href="https://github.com/Saru-12/Nest.JS">Project Link</a> - Developed CI/CD pipelines using GitHub Actions to automate the deployment process for a NestJS application, streamlining delivery and updates.
+                <span class="project-name">NestJS CI/CD Pipeline:</span> <a href="https://github.com/Saru-12/Nest.JS" target="_blank">Project Link</a> - Developed CI/CD pipelines using GitHub Actions to automate the deployment process for a NestJS application, streamlining delivery and updates.
             </li>
             <li>
-                <span class="project-name">Strapi with Terraform:</span> <a href="https://github.com/Saru-12/Terraformstrapi">Project Link</a> - Utilized Terraform to automate infrastructure provisioning for a Strapi application, improving deployment efficiency and reducing manual errors.
+                <span class="project-name">Strapi with Terraform:</span> <a href="https://github.com/Saru-12/Terraformstrapi" target="_blank">Project Link</a> - Utilized Terraform to automate infrastructure provisioning for a Strapi application, improving deployment efficiency and reducing manual errors.
             </li>
         </ul>
     </section>
@@ -109,8 +113,8 @@
     <section id="blogs">
         <h2>Blog</h2>
         <ul>
-            <li><a href="https://medium.com/@sarthaktiwaskar49/demystifying-ci-cd-pipelines-a-vital-component-of-devops-4b4d4d1e24a8">Demystifying CI/CD Pipelines</a></li>
-            <li><a href="https://medium.com/@sarthaktiwaskar49/aws-best-practices-optimizing-your-cloud-experience-0609087279db">AWS Best Practices</a></li>
+            <li><a href="https://medium.com/@sarthaktiwaskar49/demystifying-ci-cd-pipelines-a-vital-component-of-devops-4b4d4d1e24a8" target="_blank">Demystifying CI/CD Pipelines</a></li>
+            <li><a href="https://medium.com/@sarthaktiwaskar49/aws-best-practices-optimizing-your-cloud-experience-0609087279db" target="_blank">AWS Best Practices</a></li>
         </ul>
     </section>
 
@@ -123,10 +127,10 @@
 
     <footer>
         <div class="contact-info">
-            <p>Email: <a href="mailto:Sarutiwaskar@gmail.com">Sarutiwaskar@gmail.com</a></p>
-            <p>Phone: <strong>+91 7798963511</strong></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/sarthak-tiwaskar">linkedin.com/in/sarthak-tiwaskar</a></p>
-            <p>GitHub: <a href="https://github.com/Saru-12">github.com/Saru-12</a></p>
+            <span>Email: Sarutiwaskar@gmail.com</span>
+            <span>Phone: +91 7798963511</span>
+            <span>LinkedIn: linkedin.com/in/sarthak-tiwaskar</span>
+            <span>GitHub: github.com/Saru-12</span>
         </div>
     </footer>
 </body>
