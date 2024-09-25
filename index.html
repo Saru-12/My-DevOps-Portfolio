@@ -17,6 +17,7 @@
             color: #ffffff;
             padding: 1rem;
             text-align: center;
+            position: relative;
         }
         h1, h2 {
             margin: 0;
@@ -54,14 +55,19 @@
             font-weight: bold;
         }
         img {
-            width: 150px; /* Set a width for the image */
+            width: 100px; /* Set to passport size */
             height: auto; /* Keep the aspect ratio */
-            border-radius: 50%; /* Make it a circle like a passport photo */
+            border-radius: 50%; /* Make it a circle */
             display: block; /* Ensure it takes up space */
-            margin: 0 auto; /* Center the image */
+            position: absolute; /* Position it in the corner */
+            top: 10px;
+            left: 10px; /* Adjust the position as needed */
         }
         .blog-title {
             font-weight: bold; /* Make blog titles bold */
+        }
+        .about-me {
+            font-size: 16px; /* Adjust font size */
         }
     </style>
 </head>
@@ -72,6 +78,11 @@
         <p>DevOps Engineer | 2 Years of Experience</p>
     </header>
     
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p class="about-me">I am a passionate DevOps Engineer with a strong background in cloud technologies and automation. I thrive on optimizing processes and enhancing collaboration between development and operations teams. My goal is to build efficient systems that empower organizations to deliver high-quality software rapidly and reliably.</p>
+    </section>
+
     <section id="skills">
         <h2>Skills</h2>
         <ul>
@@ -86,10 +97,22 @@
     <section id="experience">
         <h2>Experience</h2>
         <ul>
-            <li><strong>DevOps Engineer</strong> - Pace Business Machines Pvt. Ltd, Nagpur (Dec 2021 – Dec 2022)</li>
-            <li><strong>DevOps Engineer</strong> - Xceller IT Services, Nagpur (Jan 2021 – Dec 2021)</li>
+            <li><strong>DevOps Engineer</strong> - Pace Business Machines Pvt. Ltd, Nagpur (Dec 2021 – Dec 2022)
+                <ul>
+                    <li>Implemented CI/CD pipelines to streamline the deployment process.</li>
+                </ul>
+            </li>
+            <li><strong>DevOps Engineer</strong> - Xceller IT Services, Nagpur (Jan 2021 – Dec 2021)
+                <ul>
+                    <li>Managed and maintained cloud infrastructure using AWS services.</li>
+                </ul>
+            </li>
         </ul>
-        <p>Experienced in automating deployment processes and enhancing system performance through efficient DevOps practices.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor of Technology in Mechanical Engineering from Nagpur University, Graduated in 2020. Developed a strong foundation in software development and cloud computing.</p>
     </section>
 
     <section id="projects">
@@ -132,4 +155,5 @@
     </footer>
 </body>
 </html>
+
 
