@@ -17,16 +17,6 @@
             color: #ffffff;
             padding: 1rem;
             text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        header img {
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            margin-right: 20px;
-            object-fit: cover;
         }
         h1, h2 {
             margin: 0;
@@ -58,26 +48,26 @@
         .contact-info {
             font-size: 18px;
             margin-top: 10px;
+            color: white; /* Change text color to white */
         }
-        .contact-info span {
-            color: white;
+        .project-name {
             font-weight: bold;
-            display: block;
-            margin: 5px 0;
         }
-        .experience-item {
-            margin-bottom: 15px;
+        img {
+            width: 150px; /* Set a width for the image */
+            height: auto; /* Keep the aspect ratio */
+            border-radius: 50%; /* Make it a circle like a passport photo */
+        }
+        .blog-title {
+            font-weight: bold; /* Make blog titles bold */
         }
     </style>
 </head>
 <body>
     <header>
-        <!-- Local Image -->
-        <img src="file-path-to-your-image.jpg" alt="Sarthak Tiwaskar's Photo">
-        <div>
-            <h1>Sarthak Tiwaskar</h1>
-            <p>DevOps Engineer | 2 Years of Experience</p>
-        </div>
+        <img src="WhatsApp Image 2024-06-26 at 15.43.48_2235854b.jpg" alt="Sarthak Tiwaskar's Photo">
+        <h1>Sarthak Tiwaskar</h1>
+        <p>DevOps Engineer | 2 Years of Experience</p>
     </header>
     
     <section id="skills">
@@ -93,43 +83,33 @@
 
     <section id="experience">
         <h2>Experience</h2>
-        <div class="experience-item">
-            <strong>DevOps Engineer</strong> - Pace Business Machines Pvt. Ltd, Nagpur (Dec 2021 – Dec 2022)
-            <p>Worked on CI/CD pipelines and automated deployment processes, significantly reducing release times. Collaborated with cross-functional teams to enhance system reliability and performance.</p>
-        </div>
-        <div class="experience-item">
-            <strong>DevOps Engineer</strong> - Xceller IT Services, Nagpur (Jan 2021 – Dec 2021)
-            <p>Implemented infrastructure as code using Terraform and Ansible, improving provisioning speed and consistency. Assisted in migrating legacy applications to cloud environments.</p>
-        </div>
+        <ul>
+            <li><strong>DevOps Engineer</strong> - Pace Business Machines Pvt. Ltd, Nagpur (Dec 2021 – Dec 2022)</li>
+            <li><strong>DevOps Engineer</strong> - Xceller IT Services, Nagpur (Jan 2021 – Dec 2021)</li>
+        </ul>
+        <p>Experienced in automating deployment processes and enhancing system performance through efficient DevOps practices.</p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <ul>
             <li>
-                <span class="project-name"><strong><a href="https://github.com/Saru-12/app-mastery" target="_blank">AWS CDK Infrastructure</a></strong></span> - Designed and implemented infrastructure using AWS CDK for deploying applications, enhancing scalability and maintainability.
+                <span class="project-name">AWS CDK Infrastructure:</span> <a href="https://github.com/Saru-12/app-mastery"><strong>Project Link</strong></a> - Designed and implemented infrastructure using AWS CDK for deploying applications, enhancing scalability and maintainability.
             </li>
             <li>
-                <span class="project-name"><strong><a href="https://github.com/Saru-12/Nest.JS" target="_blank">NestJS CI/CD Pipeline</a></strong></span> - Developed CI/CD pipelines using GitHub Actions to automate the deployment process for a NestJS application, streamlining delivery and updates.
+                <span class="project-name">NestJS CI/CD Pipeline:</span> <a href="https://github.com/Saru-12/Nest.JS"><strong>Project Link</strong></a> - Developed CI/CD pipelines using GitHub Actions to automate the deployment process for a NestJS application, streamlining delivery and updates.
             </li>
             <li>
-                <span class="project-name"><strong><a href="https://github.com/Saru-12/Terraformstrapi" target="_blank">Strapi with Terraform</a></strong></span> - Utilized Terraform to automate infrastructure provisioning for a Strapi application, improving deployment efficiency and reducing manual errors.
+                <span class="project-name">Strapi with Terraform:</span> <a href="https://github.com/Saru-12/Terraformstrapi"><strong>Project Link</strong></a> - Utilized Terraform to automate infrastructure provisioning for a Strapi application, improving deployment efficiency and reducing manual errors.
             </li>
-        </ul>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Bachelor of Engineering (BE)</strong> - Nagpur University</li>
         </ul>
     </section>
 
     <section id="blogs">
         <h2>Blog</h2>
         <ul>
-            <li><a href="https://medium.com/@sarthaktiwaskar49/demystifying-ci-cd-pipelines-a-vital-component-of-devops-4b4d4d1e24a8" target="_blank">Demystifying CI/CD Pipelines</a></li>
-            <li><a href="https://medium.com/@sarthaktiwaskar49/aws-best-practices-optimizing-your-cloud-experience-0609087279db" target="_blank">AWS Best Practices</a></li>
+            <li><a href="https://medium.com/@sarthaktiwaskar49/demystifying-ci-cd-pipelines-a-vital-component-of-devops-4b4d4d1e24a8" class="blog-title"><strong>Demystifying CI/CD Pipelines</strong></a> - A deep dive into the CI/CD process and its significance in modern DevOps practices.</li>
+            <li><a href="https://medium.com/@sarthaktiwaskar49/aws-best-practices-optimizing-your-cloud-experience-0609087279db" class="blog-title"><strong>AWS Best Practices</strong></a> - Explore best practices to optimize your AWS environment and enhance cloud efficiency.</li>
         </ul>
     </section>
 
@@ -142,11 +122,10 @@
 
     <footer>
         <div class="contact-info">
-            <span>Email: Sarutiwaskar@gmail.com</span>
-            <span>Phone: +91 7798963511</span>
-            <!-- Clickable GitHub and LinkedIn -->
-            <span>LinkedIn: <a href="https://www.linkedin.com/in/sarthak-tiwaskar" target="_blank">linkedin.com/in/sarthak-tiwaskar</a></span>
-            <span>GitHub: <a href="https://github.com/Saru-12" target="_blank">github.com/Saru-12</a></span>
+            <p>Email: <a href="mailto:Sarutiwaskar@gmail.com">Sarutiwaskar@gmail.com</a></p>
+            <p>Phone: <a href="tel:+917798963511" style="color: white;">+91 7798963511</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sarthak-tiwaskar" style="color: white;">linkedin.com/in/sarthak-tiwaskar</a></p>
+            <p>GitHub: <a href="https://github.com/Saru-12" style="color: white;">github.com/Saru-12</a></p>
         </div>
     </footer>
 </body>
