@@ -17,6 +17,15 @@
             color: #ffffff;
             padding: 1rem;
             text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            border-radius: 50%;
+            width: 120px; /* Adjust as per your image size */
+            height: 120px;
+            margin-right: 20px; /* Space between image and text */
         }
         h1, h2 {
             margin: 0;
@@ -49,22 +58,28 @@
             font-size: 18px;
             margin-top: 10px;
         }
+        .project-name {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Sarthak Tiwaskar</h1>
-        <p>DevOps Engineer | 2 Years of Experience</p>
+        <img src="your-image-path.jpg" alt="Sarthak Tiwaskar's Photo">
+        <div>
+            <h1>Sarthak Tiwaskar</h1>
+            <p>DevOps Engineer | 2 Years of Experience</p>
+        </div>
     </header>
     
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li><strong>AWS:</strong> EC2, RDS, Lambda, S3, EKS, ECR, VPC, CloudWatch</li>
-            <li><strong>CI/CD:</strong> Jenkins, GitHub Actions</li>
-            <li><strong>IaC:</strong> Terraform, Ansible</li>
-            <li><strong>Containerization:</strong> Docker, Kubernetes</li>
-            <li><strong>Scripting:</strong> Python, Shell</li>
+            <li><strong>AWS:</strong> Proficient in EC2, RDS, Lambda, S3, EKS, ECR, VPC, and CloudWatch for managing cloud infrastructure and deploying scalable applications.</li>
+            <li><strong>CI/CD:</strong> Experienced with Jenkins and GitHub Actions for setting up automated build, test, and deployment pipelines, ensuring seamless software delivery.</li>
+            <li><strong>IaC:</strong> Skilled in using Terraform and Ansible for infrastructure as code, enabling automated provisioning and configuration management.</li>
+            <li><strong>Containerization:</strong> Knowledgeable in Docker for building and running containerized applications, and Kubernetes for orchestration, ensuring high availability and scalability.</li>
+            <li><strong>Scripting:</strong> Proficient in Python and Shell scripting for automation tasks, log parsing, and system administration.</li>
         </ul>
     </section>
 
@@ -80,13 +95,13 @@
         <h2>Projects</h2>
         <ul>
             <li>
-                <a href="https://github.com/Saru-12/app-mastery">AWS CDK Infrastructure</a> - Designed and implemented infrastructure using AWS CDK for deploying applications.
+                <span class="project-name">AWS CDK Infrastructure:</span> <a href="https://github.com/Saru-12/app-mastery">Project Link</a> - Designed and implemented infrastructure using AWS CDK for deploying applications, enhancing scalability and maintainability.
             </li>
             <li>
-                <a href="https://github.com/Saru-12/Nest.JS">NestJS CI/CD Pipeline</a> - Developed CI/CD pipelines using GitHub Actions for a NestJS application.
+                <span class="project-name">NestJS CI/CD Pipeline:</span> <a href="https://github.com/Saru-12/Nest.JS">Project Link</a> - Developed CI/CD pipelines using GitHub Actions to automate the deployment process for a NestJS application, streamlining delivery and updates.
             </li>
             <li>
-                <a href="https://github.com/Saru-12/Terraformstrapi">Strapi with Terraform</a> - Utilized Terraform to automate infrastructure provisioning for a Strapi application.
+                <span class="project-name">Strapi with Terraform:</span> <a href="https://github.com/Saru-12/Terraformstrapi">Project Link</a> - Utilized Terraform to automate infrastructure provisioning for a Strapi application, improving deployment efficiency and reducing manual errors.
             </li>
         </ul>
     </section>
@@ -108,10 +123,10 @@
 
     <footer>
         <div class="contact-info">
-            <p>Contact: <a href="mailto:Sarutiwaskar@gmail.com">Sarutiwaskar@gmail.com</a></p>
+            <p>Email: <a href="mailto:Sarutiwaskar@gmail.com">Sarutiwaskar@gmail.com</a></p>
             <p>Phone: <strong>+91 7798963511</strong></p>
-            <p><a href="https://www.linkedin.com/in/sarthak-tiwaskar">LinkedIn Profile</a></p>
-            <p><a href="https://github.com/Saru-12">GitHub Profile</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sarthak-tiwaskar">linkedin.com/in/sarthak-tiwaskar</a></p>
+            <p>GitHub: <a href="https://github.com/Saru-12">github.com/Saru-12</a></p>
         </div>
     </footer>
 </body>
