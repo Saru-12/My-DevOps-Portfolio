@@ -21,7 +21,7 @@
             align-items: center;
             justify-content: center;
         }
-        header a img {
+        header img {
             border-radius: 50%;
             width: 120px;
             height: 120px;
@@ -65,14 +65,15 @@
             display: block;
             margin: 5px 0;
         }
+        .experience-item {
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <!-- Clickable Image -->
-        <a href="https://www.linkedin.com/in/sarthak-tiwaskar" target="_blank">
-            <img src="your-image-path.jpg" alt="Sarthak Tiwaskar's Photo">
-        </a>
+        <!-- Local Image -->
+        <img src="file-path-to-your-image.jpg" alt="Sarthak Tiwaskar's Photo">
         <div>
             <h1>Sarthak Tiwaskar</h1>
             <p>DevOps Engineer | 2 Years of Experience</p>
@@ -92,23 +93,27 @@
 
     <section id="experience">
         <h2>Experience</h2>
-        <ul>
-            <li><strong>DevOps Engineer</strong> - Pace Business Machines Pvt. Ltd, Nagpur (Dec 2021 – Dec 2022)</li>
-            <li><strong>DevOps Engineer</strong> - Xceller IT Services, Nagpur (Jan 2021 – Dec 2021)</li>
-        </ul>
+        <div class="experience-item">
+            <strong>DevOps Engineer</strong> - Pace Business Machines Pvt. Ltd, Nagpur (Dec 2021 – Dec 2022)
+            <p>Worked on CI/CD pipelines and automated deployment processes, significantly reducing release times. Collaborated with cross-functional teams to enhance system reliability and performance.</p>
+        </div>
+        <div class="experience-item">
+            <strong>DevOps Engineer</strong> - Xceller IT Services, Nagpur (Jan 2021 – Dec 2021)
+            <p>Implemented infrastructure as code using Terraform and Ansible, improving provisioning speed and consistency. Assisted in migrating legacy applications to cloud environments.</p>
+        </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <ul>
             <li>
-                <span class="project-name">AWS CDK Infrastructure:</span> <a href="https://github.com/Saru-12/app-mastery" target="_blank">Project Link</a> - Designed and implemented infrastructure using AWS CDK for deploying applications, enhancing scalability and maintainability.
+                <span class="project-name"><strong><a href="https://github.com/Saru-12/app-mastery" target="_blank">AWS CDK Infrastructure</a></strong></span> - Designed and implemented infrastructure using AWS CDK for deploying applications, enhancing scalability and maintainability.
             </li>
             <li>
-                <span class="project-name">NestJS CI/CD Pipeline:</span> <a href="https://github.com/Saru-12/Nest.JS" target="_blank">Project Link</a> - Developed CI/CD pipelines using GitHub Actions to automate the deployment process for a NestJS application, streamlining delivery and updates.
+                <span class="project-name"><strong><a href="https://github.com/Saru-12/Nest.JS" target="_blank">NestJS CI/CD Pipeline</a></strong></span> - Developed CI/CD pipelines using GitHub Actions to automate the deployment process for a NestJS application, streamlining delivery and updates.
             </li>
             <li>
-                <span class="project-name">Strapi with Terraform:</span> <a href="https://github.com/Saru-12/Terraformstrapi" target="_blank">Project Link</a> - Utilized Terraform to automate infrastructure provisioning for a Strapi application, improving deployment efficiency and reducing manual errors.
+                <span class="project-name"><strong><a href="https://github.com/Saru-12/Terraformstrapi" target="_blank">Strapi with Terraform</a></strong></span> - Utilized Terraform to automate infrastructure provisioning for a Strapi application, improving deployment efficiency and reducing manual errors.
             </li>
         </ul>
     </section>
@@ -139,9 +144,9 @@
         <div class="contact-info">
             <span>Email: Sarutiwaskar@gmail.com</span>
             <span>Phone: +91 7798963511</span>
-            <span>LinkedIn: linkedin.com/in/sarthak-tiwaskar</span>
-            <span>GitHub: github.com/Saru-12</span>
-            <span>Website: www.sarthak.dev</span>
+            <!-- Clickable GitHub and LinkedIn -->
+            <span>LinkedIn: <a href="https://www.linkedin.com/in/sarthak-tiwaskar" target="_blank">linkedin.com/in/sarthak-tiwaskar</a></span>
+            <span>GitHub: <a href="https://github.com/Saru-12" target="_blank">github.com/Saru-12</a></span>
         </div>
     </footer>
 </body>
