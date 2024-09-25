@@ -21,11 +21,11 @@
             align-items: center;
             justify-content: center;
         }
-        header img {
+        header a img {
             border-radius: 50%;
-            width: 120px; /* Adjust this to match your image size */
+            width: 120px;
             height: 120px;
-            margin-right: 20px; /* Space between image and text */
+            margin-right: 20px;
             object-fit: cover;
         }
         h1, h2 {
@@ -69,7 +69,10 @@
 </head>
 <body>
     <header>
-        <img src="your-image-path.jpg" alt="Sarthak Tiwaskar's Photo"> <!-- Replace with your image -->
+        <!-- Clickable Image -->
+        <a href="https://www.linkedin.com/in/sarthak-tiwaskar" target="_blank">
+            <img src="your-image-path.jpg" alt="Sarthak Tiwaskar's Photo">
+        </a>
         <div>
             <h1>Sarthak Tiwaskar</h1>
             <p>DevOps Engineer | 2 Years of Experience</p>
@@ -110,6 +113,13 @@
         </ul>
     </section>
 
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Bachelor of Engineering (BE)</strong> - Nagpur University</li>
+        </ul>
+    </section>
+
     <section id="blogs">
         <h2>Blog</h2>
         <ul>
@@ -131,6 +141,7 @@
             <span>Phone: +91 7798963511</span>
             <span>LinkedIn: linkedin.com/in/sarthak-tiwaskar</span>
             <span>GitHub: github.com/Saru-12</span>
+            <span>Website: www.sarthak.dev</span>
         </div>
     </footer>
 </body>
