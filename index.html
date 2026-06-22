@@ -1,113 +1,519 @@
-<!-- Replace your current header section -->
-<header>
-    <h1>Sarthak Tiwaskar</h1>
-    <p>AWS Certified Solutions Architect – Associate | DevOps & Cloud Engineer | 4+ Years of Experience</p>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sarthak Tiwaskar - AWS Certified Solutions Architect, DevOps Engineer with 4+ years of experience">
+  <meta name="keywords" content="DevOps, AWS, Terraform, CI/CD, Kubernetes, Docker, Jenkins">
+  <meta name="author" content="Sarthak Tiwaskar">
+  <title>Sarthak Tiwaskar | DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
 
-<!-- Replace About Me -->
-<section id="about-me">
-    <h2>About Me</h2>
-    <p class="about-me">
-        AWS Certified Solutions Architect – Associate and DevOps Engineer with 4+ years of experience
-        designing, automating, and managing cloud infrastructure on AWS. Experienced in Terraform,
-        Kubernetes (EKS), Docker, GitHub Actions, Jenkins, Argo CD, ECS, CI/CD, Infrastructure as Code,
-        and cloud security best practices. Passionate about building scalable, secure, and highly
-        available platforms while automating deployments and infrastructure.
-    </p>
-</section>
-
-<!-- Replace Skills -->
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li><strong>Cloud:</strong> AWS EC2, EKS, ECS, Lambda, RDS, S3, IAM, VPC, ALB, NLB, Route 53, CloudWatch, ECR, ACM, Secrets Manager</li>
-        <li><strong>Infrastructure as Code:</strong> Terraform, Terraform Modules, Ansible</li>
-        <li><strong>Containers:</strong> Docker, Kubernetes, Helm, Amazon EKS, Amazon ECS</li>
-        <li><strong>CI/CD:</strong> GitHub Actions, Jenkins, Argo CD, GitLab CI</li>
-        <li><strong>Monitoring:</strong> Prometheus, Grafana, CloudWatch, ELK Stack</li>
-        <li><strong>DevSecOps:</strong> Trivy, CodeQL, IAM Least Privilege</li>
-        <li><strong>Scripting:</strong> Bash, Python, YAML</li>
-        <li><strong>Web & Database:</strong> Nginx, PostgreSQL</li>
-        <li><strong>Version Control:</strong> Git, GitHub</li>
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">ST.</div>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-</section>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
 
-<!-- Replace Experience -->
-<section id="experience">
-    <h2>Experience</h2>
-    <ul>
-        <li>
-            <strong>DevOps Engineer – DumboHealth (Remote)</strong>
-            <ul>
-                <li>Designed and managed AWS infrastructure using reusable Terraform modules.</li>
-                <li>Built and maintained CI/CD pipelines with GitHub Actions and Jenkins.</li>
-                <li>Managed Kubernetes (Amazon EKS) and ECS Fargate workloads.</li>
-                <li>Implemented GitOps deployments using Argo CD.</li>
-                <li>Configured Application Load Balancers, Network Load Balancers, Route 53, ACM, IAM, and CloudFront.</li>
-                <li>Automated infrastructure provisioning and deployments across environments.</li>
-                <li>Implemented monitoring and logging using Amazon CloudWatch.</li>
-                <li>Worked on secure VPN connectivity and healthcare platform infrastructure.</li>
-            </ul>
-        </li>
-
-        <li>
-            <strong>DevOps Intern – Xceller IT Services</strong>
-            <ul>
-                <li>Assisted in AWS infrastructure management and Linux administration.</li>
-                <li>Developed CI/CD pipelines using Jenkins.</li>
-                <li>Worked with Docker containers and deployment automation.</li>
-                <li>Automated repetitive operational tasks using Bash scripting.</li>
-            </ul>
-        </li>
-    </ul>
-</section>
-
-<!-- Replace Education -->
-<section id="education">
-    <h2>Education</h2>
-    <ul>
-        <li>
-            <strong>Bachelor of Engineering (Mechanical Engineering)</strong><br>
-            Nagpur Institute of Technology & Management (RTM Nagpur University)<br>
-            Graduated: 2020
-        </li>
-    </ul>
-</section>
-
-<!-- Replace Certifications -->
-<section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-        <li>AWS Certified Solutions Architect – Associate (SAA-C03)</li>
-    </ul>
-</section>
-
-<!-- Replace Footer -->
-<footer>
-    <div class="contact-info">
-        <p>Email:
-            <a href="mailto:sarutiwaskar@gmail.com" style="color:white;">
-                sarutiwaskar@gmail.com
-            </a>
-        </p>
-
-        <p>Phone:
-            <a href="tel:+917798963511" style="color:white;">
-                +91 7798963511
-            </a>
-        </p>
-
-        <p>LinkedIn:
-            <a href="https://www.linkedin.com/in/sarthak-tiwaskar" target="_blank" style="color:white;">
-                linkedin.com/in/sarthak-tiwaskar
-            </a>
-        </p>
-
-        <p>GitHub:
-            <a href="https://github.com/Saru-12" target="_blank" style="color:white;">
-                github.com/Saru-12
-            </a>
-        </p>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-tag">
+        <span class="pulse-dot"></span>
+        Available for new opportunities
+      </div>
+      <h1>Sarthak<br><span class="gradient-text">Tiwaskar</span></h1>
+      <p class="hero-role">DevOps Engineer · <strong>AWS Certified</strong> · Cloud Infrastructure</p>
+      <p class="hero-desc">4+ years building secure, scalable AWS environments, automating CI/CD pipelines, and orchestrating Kubernetes workloads in production.</p>
+      <div class="hero-location"><i class="fas fa-map-marker-alt"></i> Nagpur, Maharashtra, India</div>
+      <div class="hero-btns">
+        <a href="mailto:sarutiwaskar@gmail.com" class="btn-primary"><i class="fas fa-envelope"></i> Get In Touch</a>
+        <a href="https://linkedin.com/in/sarthak-tiwaskar" target="_blank" rel="noopener" class="btn-outline"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/Saru-12" target="_blank" rel="noopener" class="btn-outline"><i class="fab fa-github"></i> GitHub</a>
+      </div>
     </div>
+    <div class="hero-right">
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-num">4+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">99.9%</div>
+          <div class="stat-label">Uptime Maintained</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">40%</div>
+          <div class="stat-label">Deploy Time Reduced</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">35%</div>
+          <div class="stat-label">Vulnerabilities Reduced</div>
+        </div>
+        <div class="cert-hero-badge">
+          <div class="cert-hero-icon">🏆</div>
+          <div>
+            <strong>AWS Certified Solutions Architect</strong>
+            <span>Associate · SAA-C03 · Active</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sec-inner">
+    <p class="sec-label">// Technical Expertise</p>
+    <h2 class="sec-title">Core Skills &amp; <span class="gradient-text">Tools</span></h2>
+    <div class="skills-grid">
+      <div class="skill-cat">
+        <div class="skill-cat-title"><i class="fas fa-cloud"></i> Cloud Platforms</div>
+        <div class="tags">
+          <span class="tag">AWS EC2</span><span class="tag">EKS</span><span class="tag">ECS</span>
+          <span class="tag">Lambda</span><span class="tag">RDS</span><span class="tag">S3</span>
+          <span class="tag">IAM</span><span class="tag">VPC</span><span class="tag">ALB/NLB</span>
+          <span class="tag">Route 53</span><span class="tag">CloudWatch</span><span class="tag">GuardDuty</span>
+          <span class="tag">Azure</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title"><i class="fas fa-sync-alt"></i> DevOps &amp; CI/CD</div>
+        <div class="tags">
+          <span class="tag green">Jenkins</span><span class="tag green">GitHub Actions</span>
+          <span class="tag green">GitLab CI</span><span class="tag green">Argo CD</span>
+          <span class="tag green">GitOps</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title"><i class="fab fa-docker"></i> Containers &amp; Orchestration</div>
+        <div class="tags">
+          <span class="tag purple">Docker</span><span class="tag purple">Kubernetes</span>
+          <span class="tag purple">Helm</span><span class="tag purple">Amazon EKS</span>
+          <span class="tag purple">Amazon ECS</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title"><i class="fas fa-layer-group"></i> Infrastructure as Code</div>
+        <div class="tags">
+          <span class="tag orange">Terraform</span><span class="tag orange">Terraform Modules</span>
+          <span class="tag orange">Ansible</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title"><i class="fas fa-chart-line"></i> Monitoring &amp; Observability</div>
+        <div class="tags">
+          <span class="tag">Prometheus</span><span class="tag">Grafana</span>
+          <span class="tag">CloudWatch</span><span class="tag">ELK Stack</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title"><i class="fas fa-shield-alt"></i> Security &amp; DevSecOps</div>
+        <div class="tags">
+          <span class="tag green">Trivy</span><span class="tag green">SonarQube</span>
+          <span class="tag green">CodeQL</span><span class="tag green">OWASP</span>
+          <span class="tag green">IAM</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title"><i class="fas fa-robot"></i> MLOps &amp; AI</div>
+        <div class="tags">
+          <span class="tag purple">AWS SageMaker</span><span class="tag purple">ML Infrastructure</span>
+          <span class="tag purple">Claude API</span><span class="tag purple">OpenAI APIs</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title"><i class="fas fa-terminal"></i> Scripting &amp; OS</div>
+        <div class="tags">
+          <span class="tag orange">Linux</span><span class="tag orange">Bash</span>
+          <span class="tag orange">Python</span><span class="tag orange">YAML</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="sec-inner">
+    <p class="sec-label">// Work History</p>
+    <h2 class="sec-title">Professional <span class="gradient-text">Experience</span></h2>
+    <div class="timeline">
+
+      <!-- CURRENT - FREELANCE -->
+      <div class="tl-item">
+        <div class="tl-dot dot-green"></div>
+        <div class="tl-card tl-card-active">
+          <div class="current-badge"><span class="pulse-dot small"></span> Currently Working</div>
+          <div class="tl-top">
+            <span class="tl-role">DevOps Specialist</span>
+            <span class="tl-period period-green">Feb 2026 – Present · 5 mos</span>
+          </div>
+          <div class="tl-company">Dumbo Health · <span class="badge-freelance">Freelance</span></div>
+          <div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Miami, Florida, United States · Remote</div>
+          <ul class="tl-list">
+            <li>Led end-to-end DevOps operations at Dumbo Health, enhancing cloud infrastructure efficiency</li>
+            <li>Automated AWS infrastructure using Terraform, streamlining deployment processes</li>
+            <li>Built and managed CI/CD pipelines, ensuring rapid and reliable software delivery</li>
+            <li>Oversaw ECS deployments, maintaining secure and scalable cloud environments</li>
+          </ul>
+          <div class="tl-skills">
+            <span>Cloud Infrastructure</span>
+            <span>Production Deployment</span>
+            <span>Terraform</span>
+            <span>AWS ECS</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DELPHIC -->
+      <div class="tl-item">
+        <div class="tl-dot dot-blue"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <span class="tl-role">Infrastructure Engineer</span>
+            <span class="tl-period">Aug 2025 – Feb 2026</span>
+          </div>
+          <div class="tl-company">Delphic Global Private Limited</div>
+          <div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Remote · 6 months</div>
+          <ul class="tl-list">
+            <li>Designed and managed AWS infrastructure using ECS, EC2, IAM, ALB, and VPC for production workloads</li>
+            <li>Maintained 99.9% service availability through monitoring, alerting, and infrastructure hardening</li>
+            <li>Built CI/CD pipelines using GitHub Actions for automated build, security scan, and zero-downtime deployment</li>
+            <li>Implemented Site-to-Site VPN for secure connectivity between client and cloud environments</li>
+            <li>Collaborated with distributed US teams to support scheduled releases and production changes</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- LOGIC LINK -->
+      <div class="tl-item">
+        <div class="tl-dot dot-purple"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <span class="tl-role">AWS DevOps Engineer</span>
+            <span class="tl-period">Feb 2025 – Apr 2025</span>
+          </div>
+          <div class="tl-company">Logic Link Lab Pvt Ltd</div>
+          <div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Remote · 3 months</div>
+          <ul class="tl-list">
+            <li>Provisioned secure AWS ECS environments using Terraform with private networking and ALB routing</li>
+            <li>Implemented IAM least-privilege access model, GuardDuty, and VPC Flow Logs</li>
+            <li>Built CI/CD pipelines with container vulnerability scanning using Trivy</li>
+            <li>Delivered complete automated cloud setup within aggressive project timelines</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DELTA -->
+      <div class="tl-item">
+        <div class="tl-dot dot-orange"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <span class="tl-role">DevOps Engineer</span>
+            <span class="tl-period">Jan 2023 – Feb 2025</span>
+          </div>
+          <div class="tl-company">Delta India Pvt Ltd</div>
+          <div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Pune · 2+ years</div>
+          <ul class="tl-list">
+            <li>Built CI/CD pipelines using Jenkins and GitHub Actions, reducing deployment time by 40%</li>
+            <li>Managed reusable Terraform modules for dev, staging, and production environments</li>
+            <li>Administered Kubernetes/EKS clusters hosting 20+ microservices using Helm</li>
+            <li>Reduced critical vulnerabilities by 35% using SonarQube and OWASP security gates</li>
+            <li>Implemented Auto Scaling for EC2 and ECS to handle 3× traffic spikes without downtime</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PACE -->
+      <div class="tl-item">
+        <div class="tl-dot dot-teal"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <span class="tl-role">DevOps Engineer</span>
+            <span class="tl-period">Dec 2021 – Dec 2022</span>
+          </div>
+          <div class="tl-company">Pace Business Machines Pvt Ltd</div>
+          <div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Nagpur · 1 year</div>
+          <ul class="tl-list">
+            <li>Automated server provisioning using Terraform and Ansible across 100+ servers</li>
+            <li>Reduced manual provisioning effort by 70% through reusable automation playbooks</li>
+            <li>Built centralized observability stack using Grafana, Prometheus, and ELK Stack</li>
+            <li>Reduced MTTR by 50% through alerting, dashboards, and incident runbooks</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- INTERN -->
+      <div class="tl-item">
+        <div class="tl-dot dot-gray"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <span class="tl-role">DevOps Intern</span>
+            <span class="tl-period">Jun 2021 – Dec 2021</span>
+          </div>
+          <div class="tl-company">Xceller IT Services</div>
+          <div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Nagpur · 6 months</div>
+          <ul class="tl-list">
+            <li>Supported Jenkins pipelines, AWS EC2 provisioning, and Linux administration tasks</li>
+            <li>Assisted with Docker containerization and Kubernetes deployments</li>
+            <li>Monitored infrastructure using CloudWatch and basic alerting tools</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="sec-inner">
+    <p class="sec-label">// What I Offer</p>
+    <h2 class="sec-title">Services I <span class="gradient-text">Provide</span></h2>
+    <div class="services-grid">
+
+      <div class="svc-card">
+        <div class="svc-icon" style="background:linear-gradient(135deg,#4f8ef7,#7c5cfc)">
+          <i class="fas fa-cloud-upload-alt"></i>
+        </div>
+        <h3>Cloud Infrastructure</h3>
+        <p>Design and deploy secure, scalable AWS environments tailored to your application needs — VPC, EC2, ECS, EKS, RDS, and more.</p>
+        <ul class="svc-list">
+          <li>AWS Architecture Design</li>
+          <li>Multi-environment Setup</li>
+          <li>Cost Optimization</li>
+          <li>High Availability &amp; DR</li>
+        </ul>
+      </div>
+
+      <div class="svc-card">
+        <div class="svc-icon" style="background:linear-gradient(135deg,#00d4aa,#00b890)">
+          <i class="fas fa-code-branch"></i>
+        </div>
+        <h3>CI/CD Pipeline Automation</h3>
+        <p>Build end-to-end automated pipelines from code commit to production — zero-downtime deploys, security scans, and automated rollbacks.</p>
+        <ul class="svc-list">
+          <li>Jenkins / GitHub Actions / GitLab CI</li>
+          <li>Argo CD GitOps Workflows</li>
+          <li>Container Vulnerability Scanning</li>
+          <li>Automated Testing Gates</li>
+        </ul>
+      </div>
+
+      <div class="svc-card">
+        <div class="svc-icon" style="background:linear-gradient(135deg,#ff8c42,#f76b1c)">
+          <i class="fas fa-layer-group"></i>
+        </div>
+        <h3>Infrastructure as Code</h3>
+        <p>Manage all infrastructure through reusable, version-controlled Terraform modules and Ansible playbooks — fully automated provisioning.</p>
+        <ul class="svc-list">
+          <li>Terraform Module Development</li>
+          <li>Ansible Automation Playbooks</li>
+          <li>State Management &amp; Remote Backends</li>
+          <li>Multi-account AWS Setup</li>
+        </ul>
+      </div>
+
+      <div class="svc-card">
+        <div class="svc-icon" style="background:linear-gradient(135deg,#7c5cfc,#a78bfa)">
+          <i class="fab fa-docker"></i>
+        </div>
+        <h3>Containers &amp; Kubernetes</h3>
+        <p>Containerize your applications and orchestrate them at scale with Docker and Kubernetes — including EKS cluster management and Helm charts.</p>
+        <ul class="svc-list">
+          <li>Docker Image Optimization</li>
+          <li>EKS / Kubernetes Cluster Setup</li>
+          <li>Helm Chart Development</li>
+          <li>Auto-scaling Configuration</li>
+        </ul>
+      </div>
+
+      <div class="svc-card">
+        <div class="svc-icon" style="background:linear-gradient(135deg,#f7c948,#e8a900)">
+          <i class="fas fa-chart-bar"></i>
+        </div>
+        <h3>Monitoring &amp; Observability</h3>
+        <p>Gain full visibility into your systems with centralized logging, metrics, and alerting stacks — reduce MTTR and catch issues before users do.</p>
+        <ul class="svc-list">
+          <li>Prometheus + Grafana Dashboards</li>
+          <li>ELK Stack Setup</li>
+          <li>CloudWatch Alerts &amp; Dashboards</li>
+          <li>Incident Runbooks</li>
+        </ul>
+      </div>
+
+      <div class="svc-card">
+        <div class="svc-icon" style="background:linear-gradient(135deg,#f76b6b,#e53e3e)">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h3>DevSecOps &amp; Security</h3>
+        <p>Embed security into every stage of your pipeline — from static code analysis to runtime container scanning and IAM hardening.</p>
+        <ul class="svc-list">
+          <li>Trivy Container Scanning</li>
+          <li>SonarQube Code Quality Gates</li>
+          <li>IAM Least-Privilege Policies</li>
+          <li>GuardDuty &amp; VPC Flow Logs</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="sec-inner">
+    <p class="sec-label">// Featured Work</p>
+    <h2 class="sec-title">Key <span class="gradient-text">Projects</span></h2>
+    <div class="proj-grid">
+
+      <div class="proj-card">
+        <div class="proj-icon">🚀</div>
+        <h3 class="proj-title">Kubernetes GitOps Deployment Platform</h3>
+        <p class="proj-desc">End-to-end GitOps workflow with Argo CD enabling automated rollbacks on failed health checks across multi-environment deployments.</p>
+        <ul class="proj-list">
+          <li>AWS Secrets Manager + External Secrets Operator integration</li>
+          <li>Multi-environment deploys via Application Sets</li>
+          <li>Custom Helm charts for microservices</li>
+        </ul>
+        <div class="proj-stack">
+          <span>Argo CD</span><span>Kubernetes</span><span>Helm</span><span>AWS</span><span>GitOps</span>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-icon">⚡</div>
+        <h3 class="proj-title">Highly Available WordPress on AWS</h3>
+        <p class="proj-desc">Production-grade WordPress deployment on EC2 with Nginx, automated SSL, performance optimization, and auto-scaling for peak traffic.</p>
+        <ul class="proj-list">
+          <li>Page Speed score improved to 95+</li>
+          <li>Advanced caching and server configuration</li>
+          <li>Auto Scaling Group for traffic spike handling</li>
+        </ul>
+        <div class="proj-stack">
+          <span>AWS EC2</span><span>Nginx</span><span>Auto Scaling</span><span>SSL/ACM</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="sec-inner">
+    <p class="sec-label">// Credentials</p>
+    <h2 class="sec-title">Certifications</h2>
+    <div class="cert-card-big">
+      <div class="cert-badge-big">🏆</div>
+      <div class="cert-info">
+        <h3>AWS Certified Solutions Architect – Associate</h3>
+        <p>Exam Code: SAA-C03 &nbsp;·&nbsp; Provider: Amazon Web Services</p>
+        <span class="cert-active"><span class="pulse-dot small"></span> Active &amp; Verified</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT + EDUCATION -->
+<section id="contact">
+  <div class="sec-inner">
+    <p class="sec-label">// Let's Connect</p>
+    <h2 class="sec-title">Get In <span class="gradient-text">Touch</span></h2>
+    <div class="contact-grid">
+      <div>
+        <p class="contact-desc">Open to DevOps, Cloud Infrastructure, and SRE roles. Let's build something reliable together.</p>
+        <div class="contact-links">
+          <a href="mailto:sarutiwaskar@gmail.com" class="contact-link">
+            <span class="cl-icon"><i class="fas fa-envelope"></i></span>
+            <div class="cl-info">
+              <span class="cl-label">Email</span>
+              <span class="cl-val">sarutiwaskar@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+917798963511" class="contact-link">
+            <span class="cl-icon"><i class="fas fa-phone"></i></span>
+            <div class="cl-info">
+              <span class="cl-label">Phone</span>
+              <span class="cl-val">+91 77989 63511</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/sarthak-tiwaskar" target="_blank" rel="noopener" class="contact-link">
+            <span class="cl-icon linkedin"><i class="fab fa-linkedin"></i></span>
+            <div class="cl-info">
+              <span class="cl-label">LinkedIn</span>
+              <span class="cl-val">sarthak-tiwaskar</span>
+            </div>
+          </a>
+          <a href="https://github.com/Saru-12" target="_blank" rel="noopener" class="contact-link">
+            <span class="cl-icon github"><i class="fab fa-github"></i></span>
+            <div class="cl-info">
+              <span class="cl-label">GitHub</span>
+              <span class="cl-val">Saru-12</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="sec-label" style="margin-bottom:16px;">// Education</p>
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-degree">Bachelor of Engineering (Mechanical)</div>
+          <div class="edu-school">Nagpur Institute of Technology &amp; Management (NITMS)</div>
+          <div class="edu-meta">
+            <span><i class="fas fa-calendar"></i> 2020</span>
+            <span><i class="fas fa-star"></i> 78.5%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">ST.</div>
+    <p>© 2026 <strong>Sarthak Tiwaskar</strong> · AWS Certified DevOps Engineer · Nagpur, Maharashtra, India</p>
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/sarthak-tiwaskar" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Saru-12" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+      <a href="mailto:sarutiwaskar@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
 </footer>
 
+<script>
+  // Mobile nav toggle
+  const toggle = document.getElementById('navToggle');
+  const navLinks = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+  // Close nav on link click (mobile)
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => navLinks.classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>
