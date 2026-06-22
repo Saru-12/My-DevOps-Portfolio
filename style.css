@@ -787,3 +787,14 @@ ul { list-style: none; }
   .contact-grid { grid-template-columns: 1fr; }
   .services-grid, .proj-grid { grid-template-columns: 1fr; }
 }
+/* Force all reveal elements to be always visible */
+.svc-card,
+.tl-item,
+.proj-card,
+.cert-card,
+.edu-card,
+.contact-card,
+.sk-row {
+  opacity: 1 !important;
+  transform: none !important;
+}
