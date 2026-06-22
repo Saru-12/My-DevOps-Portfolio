@@ -1,69 +1,161 @@
-# Sarthak Tiwaskar - DevOps Engineer
+# 👋 Hi, I'm Sarthak Tiwaskar
 
-## About Me
-I am a DevOps Engineer with 3 years of experience specializing in cloud infrastructure, automation, and CI/CD pipelines. I am passionate about creating scalable and efficient systems that streamline software development and deployment processes.
+## 🚀 AWS Certified Solutions Architect – Associate | DevOps & Cloud Engineer
 
-- **Email**: [Sarutiwaskar@gmail.com](mailto:Sarutiwaskar@gmail.com)
-- **Phone**: +91 7798963511
-- **LinkedIn**: [Sarthak Tiwaskar](https://www.linkedin.com/in/sarthak-tiwaskar)
-- **GitHub**: [Saru-12](https://www.github.com/Saru-12)
+DevOps Engineer with **4+ years of experience** designing, automating, and managing cloud infrastructure on AWS. Passionate about Infrastructure as Code, Kubernetes, CI/CD, and building secure, scalable, and highly available platforms.
 
 ---
 
-## Skills
+## 📫 Connect With Me
 
-- **Cloud Platforms**: AWS (EC2, RDS, Lambda, S3, EKS, ECR, VPC, CloudWatch)
-- **CI/CD Tools**: Jenkins, GitHub Actions, CodePipeline
-- **Infrastructure as Code**: Terraform, AWS CDK, Ansible
-- **Containerization**: Docker, Kubernetes
-- **Scripting**: Python, Shell
-- **Monitoring**: ELK Stack, Prometheus, Grafana
-- **Version Control**: Git, GitLab
+- 📧 **Email:** <sarutiwaskar@gmail.com>
+- 📱 **Phone:** +91 7798963511
+- 💼 **LinkedIn:** https://www.linkedin.com/in/sarthak-tiwaskar
+- 💻 **GitHub:** https://github.com/Saru-12
 
 ---
 
-## Projects
+## ☁️ Technical Skills
 
-### [1. AWS CDK Infrastructure](https://github.com/Saru-12/app-mastery)
-Designed and implemented infrastructure using AWS CDK for deploying applications, enhancing scalability and maintainability.
+### Cloud Platforms
+- AWS EC2
+- Amazon EKS
+- Amazon ECS
+- AWS Lambda
+- Amazon RDS
+- Amazon S3
+- IAM
+- VPC
+- Application Load Balancer (ALB)
+- Network Load Balancer (NLB)
+- Route 53
+- CloudWatch
+- Amazon ECR
+- AWS Certificate Manager (ACM)
+- Secrets Manager
 
-### [2. NestJS CI/CD Pipeline](https://github.com/Saru-12/Nest.JS)
-Developed CI/CD pipelines using GitHub Actions to automate the deployment process for a NestJS application, streamlining delivery and updates.
+### DevOps & CI/CD
+- GitHub Actions
+- Jenkins
+- Argo CD
+- GitLab CI/CD
+- GitOps
 
-### [3. Strapi with Terraform](https://github.com/Saru-12/Terraformstrapi)
-Utilized Terraform to automate infrastructure provisioning for a Strapi application, improving deployment efficiency and reducing manual errors.
+### Infrastructure as Code
+- Terraform
+- Terraform Modules
+- Ansible
 
-### [4. Pearl Project Node.js App](https://github.com/Saru-12/Pearlproject_Nodejs)
-Developed a Node.js-based application for the Pearl project, focusing on backend functionality and API integration. Implemented efficient code practices to enhance performance and reliability.
+### Containers & Orchestration
+- Docker
+- Kubernetes
+- Helm
+- Amazon EKS
+- Amazon ECS
 
-### [5. Hello World Node.js App](https://github.com/Saru-12/Hello-world-node-app)
-A basic Node.js application using the Express framework to showcase a simple setup with a "Hello World" example.
+### Monitoring & Observability
+- Prometheus
+- Grafana
+- Amazon CloudWatch
+- ELK Stack
 
-### [6. Fantastic Lamp (Strapi Project)](https://github.com/Saru-12/Fantastic-lamp)
-Strapi Node.js project with a frontend and backend API integration.
+### Security
+- IAM
+- Trivy
+- CodeQL
+- DevSecOps Best Practices
 
-### [7. Node.js Deployment with Jenkins](https://github.com/Saru-12/Nodejs_Project)
-Deployed a Node.js application using a Jenkins CI/CD pipeline, automating the build and deployment process.
+### Programming & Scripting
+- Bash
+- Python
+- YAML
+
+### Databases & Web
+- PostgreSQL
+- Nginx
 
 ---
 
-## Blogs
+## 💼 Professional Experience
 
-- **[Demystifying CI/CD Pipelines](https://medium.com/@sarthaktiwaskar49/demystifying-ci-cd-pipelines-a-vital-component-of-devops-4b4d4d1e24a8)** - A deep dive into the CI/CD process and its significance in modern DevOps practices.
-- **[AWS Best Practices](https://medium.com/@sarthaktiwaskar49/aws-best-practices-optimizing-your-cloud-experience-0609087279db)** - Explore best practices to optimize your AWS environment and enhance cloud efficiency.
+### DevOps Engineer – DumboHealth
+
+- Built reusable AWS infrastructure using Terraform modules.
+- Managed Kubernetes (Amazon EKS) and ECS Fargate workloads.
+- Designed and maintained CI/CD pipelines using GitHub Actions and Jenkins.
+- Implemented GitOps deployments with Argo CD.
+- Configured AWS networking components including ALB, NLB, Route 53, ACM, and IAM.
+- Automated infrastructure provisioning and deployment workflows.
+- Worked with monitoring, logging, and cloud security best practices.
+- Supported production-grade healthcare and cloud-native applications.
+
+### DevOps Intern – Xceller IT Services
+
+- Assisted with AWS infrastructure management.
+- Automated deployments using Jenkins and shell scripting.
+- Worked with Docker containers and Linux systems.
+- Supported CI/CD implementation and operational tasks.
 
 ---
 
-## Certifications
+## 📂 Featured Projects
 
-- Fundamentals of AWS DevOps
+### 🔹 AWS CDK Infrastructure
+https://github.com/Saru-12/app-mastery
+
+Provisioned scalable AWS infrastructure using Infrastructure as Code principles.
+
+### 🔹 NestJS CI/CD Pipeline
+https://github.com/Saru-12/Nest.JS
+
+Automated build and deployment workflows using GitHub Actions.
+
+### 🔹 Terraform Strapi Infrastructure
+https://github.com/Saru-12/Terraformstrapi
+
+Provisioned cloud infrastructure for Strapi applications using Terraform.
+
+### 🔹 Node.js Deployment with Jenkins
+https://github.com/Saru-12/Nodejs_Project
+
+Implemented automated CI/CD pipelines for Node.js applications.
+
+### 🔹 Pearl Project
+https://github.com/Saru-12/Pearlproject_Nodejs
+
+Backend application demonstrating API development and deployment workflows.
 
 ---
 
-## Education
+## 🏆 Certification
 
-**Bachelor of Engineering in Mechanical Engineering**  
-Nagpur University - Graduated in 2020
-```
+- ✅ AWS Certified Solutions Architect – Associate (SAA-C03)
 
+---
 
+## 🎓 Education
+
+**Bachelor of Engineering (Mechanical Engineering)**  
+Nagpur Institute of Technology & Management (RTM Nagpur University)  
+Graduated: 2020
+
+---
+
+## 🎯 Core Competencies
+
+- AWS Cloud Architecture
+- Infrastructure as Code (Terraform)
+- Kubernetes & Container Orchestration
+- Docker & Amazon ECS
+- GitHub Actions & Jenkins
+- GitOps with Argo CD
+- CI/CD Automation
+- Cloud Security
+- Linux Administration
+- Monitoring & Observability
+- DevSecOps
+- High Availability & Scalability
+
+---
+
+⭐ If you like my work or find my repositories useful, feel free to connect with me or explore my projects on GitHub!
